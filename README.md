@@ -29,7 +29,7 @@ runs the script where <NODE> can be either 'A', 'B', 'C', or 'D' which has prese
   <tr>
     <th>D</th>
     <th>10.0.100.4</th>
-    <th>00:24:1d:5c;5b:dc<th>
+    <th>00:24:1d:5c;5b:dc</th>
     <th>8003</th>
   </tr>
 </table>
