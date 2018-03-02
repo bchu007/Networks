@@ -1,8 +1,8 @@
-#commands 
+# commands 
 '''python arp.py <NODE>/<ip address><mac address><port>'''
 runs the script where <NODE> can be either 'A', 'B', 'C', or 'D' which has preset <ip addresses>, <mac addresses>, and <ports>. These presets can be manually inputted as well.
 
-##presets node parameters
+## presets node parameters
 <table>
   <tr>
     <th>node</th>
