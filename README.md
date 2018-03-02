@@ -1,6 +1,6 @@
 # commands 
-'''python arp.py <NODE>/<ip address><mac address><port>'''
-runs the script where <NODE> can be either 'A', 'B', 'C', or 'D' which has preset <ip addresses>, <mac addresses>, and <ports>. These presets can be manually inputted as well.
+```python arp.py <NODE>/<ip address><mac address><port>```
+runs the script where <NODE> can be either `A`, `B`, `C`, or `D` which has preset <ip addresses>, <mac addresses>, and <ports>. These presets can be manually inputted as well.
 
 ## presets node parameters
 <table>
@@ -34,10 +34,10 @@ runs the script where <NODE> can be either 'A', 'B', 'C', or 'D' which has prese
   </tr>
 </table>
 
-'''pingmac <ipaddress/macaddress>'''
+```pingmac <ipaddress/macaddress>```
 pings node. checks if address is inside current arp table, otherwise broadcast to all other port arp entry. request arp response entry and fill in arp table. Ping respective node and receive confirmation.
 
-'''arp-a'''
+```arp-a```
 prints out a list of <ip addresses> <mac addresses> and <ports> inside of arp table of current node.
 
 
