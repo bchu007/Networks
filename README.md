@@ -34,6 +34,8 @@ runs the script where \<NODE> can be either `A`, `B`, `C`, or `D` which has pres
   </tr>
 </table>
 
+```telnet localhost <port>``` run the script within the same local network to access nodes.
+
 ```pingmac <ipaddress/macaddress>```
 pings node. checks if address is inside current arp table, otherwise broadcast to all other port arp entry. request arp response entry and fill in arp table. Ping respective node and receive confirmation.
 
